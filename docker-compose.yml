@@ -11,14 +11,16 @@ services:
       - postgres_data:/var/lib/postgresql/data/
 
   web:
-    build: .
+    image: django:latest
     ports:
       - "8000:8000"
     environment:
-      - DJANGO_SECRET_KEY=32apj*c483c%hc5&cs1hejx52fz3(4jg8*18v38iepgsh^nyc4
-      - DATABASE_URL=postgres://myuser:1234@db/notes_db
+      - DJANGO_SECRET_KEY=django-insecure-!tdsl@k!4d6-v47v03e(fahg#@j@49gfa8zp#gbiej51ge#ua!
+      - DATABASE_URL=postgres://myuser:1234@db:5432/notes_db
     depends_on:
       - db
 
 volumes:
   postgres_data:
+
+
