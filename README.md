@@ -53,14 +53,18 @@ $ docker-compose down
 ### تعامل با داکر
 کارهای زیر را انجام دهید:
 <div dir="rtl">1. به کمک دستورهای مناسب، image‌ها و containerهای خود را نشان دهید و آن‌هایی که مربوط به این آزمایش هستند را مشخص کنید.<br> ابتدا از دستور docker images استفاده می‎‌کنیم که لیستی از تمام image های دانلود شده در سیستم را نمایش می‌دهد.<br></div>
-![Screenshot 2024-08-12 220837](https://github.com/user-attachments/assets/61a532e0-b1e7-45d0-afc5-5dfd15502a8b)<br>
+
+![Screenshot 2024-08-12 220837](https://github.com/user-attachments/assets/61a532e0-b1e7-45d0-afc5-5dfd15502a8b)
+
 <div dir="rtl">برای کانتینر ها نیز از دستور docker ps استفاده می‌کنیم که کانتینر های در حال اجرا را نشان می‌‌دهد</div>
 <div dir="rtl">(برای نمایش همه کانتینر ها باید از دستور docker ps -a  استفاده کرد). همانطور که مشاهده می‌شود هر دو کانتینر مربوط به پروژه این آزمایش است.<br></div>
-![Screenshot 2024-08-12 221024](https://github.com/user-attachments/assets/a720495e-223d-4ab5-8c87-4bcdbeec2446)<br>
+
+![Screenshot 2024-08-12 221024](https://github.com/user-attachments/assets/a720495e-223d-4ab5-8c87-4bcdbeec2446)
 
 <div dir="rtl">2. دستوری دلخواه را در کانتینر وب‌سرور اجرا کنید. دستور مورد نظر و خروجی آن را در گزارش خود قرار دهید.<br></div>
   <div dir="rtl"> با سه دستور ls و ps و bash خروجی زیر را می‌گیریم:<br></div>
-   ![Q2](https://github.com/user-attachments/assets/252f00fd-00a8-4416-9d7c-a9bca10d02c5)
+  
+![Q2](https://github.com/user-attachments/assets/252f00fd-00a8-4416-9d7c-a9bca10d02c5)
 
 
 ### پرسش‌ها
