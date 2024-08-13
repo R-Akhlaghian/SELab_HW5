@@ -42,13 +42,16 @@ $ docker-compose down
 
 
 ### ارسال درخواست به وب‌سرور
-به کمک مرورگر، نرم‌افزار Postman، ترمینال یا هر ابزار مناسب دیگری، به وسیله ارسال درخواست مناسب به وب‌سرور، گام‌های زیر را انجام دهید:
+به کمک نرم‌افزار Postman  درخواست‌ها را ارسال کردیم:
 1. یک کاربر به نام user1 با رمز ۱۲۳۴ بسازید.
+![image](https://github.com/user-attachments/assets/5064f8ec-6951-453e-bc57-36c40f6de0b2)
+![image](https://github.com/user-attachments/assets/5fe3acfe-a8be-4505-822d-99465a2bd1df)
 2. یادداشتی با تیتر title1 و بدنه body1 برای user1 بسازید.
+![image](https://github.com/user-attachments/assets/0d558d2f-ecbf-440f-b9d8-9ddeae51aff0)
 3. یادداشتی با تیتر title2 و بدنه body2 برای user1 بسازید.
+![image](https://github.com/user-attachments/assets/fdd61a80-8d64-4f4a-a26c-74453ef98d1f)
 4. همه یادداشت‌های user1 را دریافت کنید. (باید ۲ یادداشت بالا را به عنوان خروجی دریافت کنید)
-
-**درخواست ارسال شده و خروجی دریافت شده را برای همه گام‌های بالا در گزارش خود قرار دهید.**
+![image](https://github.com/user-attachments/assets/80250f88-f456-4f18-a01e-d245aa776dd3)
 
 ### تعامل با داکر
 کارهای زیر را انجام دهید:
